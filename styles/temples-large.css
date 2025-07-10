@@ -1,0 +1,41 @@
+@media (min-width: 700px) {
+  header {
+    padding: 0;
+  }
+  .header-content {
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 1rem 2rem 1rem 2rem;
+  }
+  #menu-toggle {
+    display: none;
+  }
+  nav {
+    display: flex !important;
+    flex-direction: row;
+    gap: 1.5rem;
+    position: static;
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0;
+  }
+  nav a {
+    font-size: 1.02rem;
+    padding: 0.7rem 1.2rem;
+    background: none;
+  }
+  main {
+    max-width: 1050px;
+    padding: 0 2rem;
+  }
+  .album-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  figure img {
+    max-height: 190px;
+  }
+  footer {
+    font-size: 1.15rem;
+  }
+}
